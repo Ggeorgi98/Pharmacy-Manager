@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.6" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PharmManager.Products.DomainServices\PharmManager.Products.DomainServices.csproj" />
+    <ProjectReference Include="..\PharmManager.Products.Domain\PharmManager.Products.Domain.csproj" />
+    <ProjectReference Include="..\PharmManager.Products.Repositories\PharmManager.Products.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

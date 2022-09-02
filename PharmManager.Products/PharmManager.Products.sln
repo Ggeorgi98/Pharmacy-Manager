@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PharmManager.Products.API", "src\PharmManager.Products.API\PharmManager.Products.API.csproj", "{63E5CDCD-AD30-445D-A583-DC72B847E302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Solution Items", "{D87B2D04-16A4-4846-8EE9-266ED124257B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain", "1. Domain", "{B7F85486-3493-41BA-B777-9B32642F7D0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Repositories", "2. Repositories", "{C8A02E80-6BF3-48FF-8DC5-6C95149625BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Contract", "3. Contract", "{8FB6F318-48E4-4E85-BD8D-79EC4A6782CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Client", "4. Client", "{45AEC9D7-A7E1-418F-A67A-DF7726F5BCD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Tests", "5. Tests", "{2A0099D4-380C-4623-AD2A-8711C0B98A46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Host", "6. Host", "{412991C3-C9FB-4024-B866-F458B73C4A4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PharmManager.Products.Domain", "src\PharmManager.Products.Domain\PharmManager.Products.Domain.csproj", "{41420DC5-3B32-4A62-9AC7-88F06AC96B3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PharmManager.Products.Repositories", "src\PharmManager.Products.Repositories\PharmManager.Products.Repositories.csproj", "{3E8B34DA-4502-4C17-82DC-90C1523066B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PharmManager.Products.DomainServices", "src\PharmManager.Products.DomainServices\PharmManager.Products.DomainServices.csproj", "{7F7FE6A4-DBEF-41F4-8A3D-20307E155FBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PharmManager.Products.API.Tests", "tests\PharmManager.Products.API.Tests\PharmManager.Products.API.Tests.csproj", "{A86957C5-E065-4AA0-92C4-98C1AD9F740C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmManager.Products.Contracts", "contracts\PharmManager.Products.Contracts\PharmManager.Products.Contracts.csproj", "{AC2FABF2-8F3D-41EE-BA1B-E9757FEEBFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmManager.Products.RestClient", "client\PharmManager.Products.RestClient\PharmManager.Products.RestClient.csproj", "{CAB10BC7-804A-4851-A61E-DE1A880A6FFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63E5CDCD-AD30-445D-A583-DC72B847E302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E5CDCD-AD30-445D-A583-DC72B847E302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E5CDCD-AD30-445D-A583-DC72B847E302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E5CDCD-AD30-445D-A583-DC72B847E302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41420DC5-3B32-4A62-9AC7-88F06AC96B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41420DC5-3B32-4A62-9AC7-88F06AC96B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41420DC5-3B32-4A62-9AC7-88F06AC96B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41420DC5-3B32-4A62-9AC7-88F06AC96B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E8B34DA-4502-4C17-82DC-90C1523066B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8B34DA-4502-4C17-82DC-90C1523066B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8B34DA-4502-4C17-82DC-90C1523066B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8B34DA-4502-4C17-82DC-90C1523066B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7FE6A4-DBEF-41F4-8A3D-20307E155FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7FE6A4-DBEF-41F4-8A3D-20307E155FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7FE6A4-DBEF-41F4-8A3D-20307E155FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7FE6A4-DBEF-41F4-8A3D-20307E155FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86957C5-E065-4AA0-92C4-98C1AD9F740C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86957C5-E065-4AA0-92C4-98C1AD9F740C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86957C5-E065-4AA0-92C4-98C1AD9F740C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86957C5-E065-4AA0-92C4-98C1AD9F740C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2FABF2-8F3D-41EE-BA1B-E9757FEEBFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2FABF2-8F3D-41EE-BA1B-E9757FEEBFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2FABF2-8F3D-41EE-BA1B-E9757FEEBFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2FABF2-8F3D-41EE-BA1B-E9757FEEBFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB10BC7-804A-4851-A61E-DE1A880A6FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB10BC7-804A-4851-A61E-DE1A880A6FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB10BC7-804A-4851-A61E-DE1A880A6FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB10BC7-804A-4851-A61E-DE1A880A6FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63E5CDCD-AD30-445D-A583-DC72B847E302} = {412991C3-C9FB-4024-B866-F458B73C4A4B}
+		{41420DC5-3B32-4A62-9AC7-88F06AC96B3C} = {B7F85486-3493-41BA-B777-9B32642F7D0E}
+		{3E8B34DA-4502-4C17-82DC-90C1523066B6} = {C8A02E80-6BF3-48FF-8DC5-6C95149625BA}
+		{7F7FE6A4-DBEF-41F4-8A3D-20307E155FBC} = {B7F85486-3493-41BA-B777-9B32642F7D0E}
+		{A86957C5-E065-4AA0-92C4-98C1AD9F740C} = {2A0099D4-380C-4623-AD2A-8711C0B98A46}
+		{AC2FABF2-8F3D-41EE-BA1B-E9757FEEBFE9} = {8FB6F318-48E4-4E85-BD8D-79EC4A6782CA}
+		{CAB10BC7-804A-4851-A61E-DE1A880A6FFF} = {45AEC9D7-A7E1-418F-A67A-DF7726F5BCD8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8311C55B-26D6-47D9-9019-3F48F022E922}
+	EndGlobalSection
+EndGlobal
